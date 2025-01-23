@@ -7,8 +7,9 @@
 	</view>
 	<!-- 撑开上面的区域 -->
 	<view class="menu-view-height"></view>
-	<startPageVue></startPageVue>
-	<chatAreaVue></chatAreaVue>
+	<!-- <startPageVue></startPageVue> -->
+	<!-- <chatAreaVue></chatAreaVue> -->
+	<inputBoxVue></inputBoxVue>
 </template>
 
 <script setup>
@@ -21,6 +22,8 @@
 	
 	import startPageVue from "./component/start-page.vue"
 	import chatAreaVue from "./component/chat-area.vue"
+	import aiDrawingVue from "./component/ai-drawing.vue"
+	import inputBoxVue from "./component/input-box.vue"
 	const {
 		but_height,
 		but_top,

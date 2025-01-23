@@ -45,7 +45,7 @@
 			font-weight: bold;
 		}
 
-		.recommend-content {
+		.recommend-content {	
 			background-color: #f3f3f3;
 			border-radius: 10rpx;
 			padding: 15rpx;
@@ -55,8 +55,8 @@
 				color: #006c45;
 			}
 
-			.recommend-items:nth-last-child() {
-				margin-bottom: 0rpx;
+			.recommend-items:last-child {
+				margin-bottom: 0;
 			}
 		}
 	}
