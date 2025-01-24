@@ -9,7 +9,8 @@
 	<view class="menu-view-height"></view>
 	<!-- <startPageVue></startPageVue> -->
 	<!-- <chatAreaVue></chatAreaVue> -->
-	<inputBoxVue></inputBoxVue>
+	<!-- <inputBoxVue></inputBoxVue> -->
+	<personalCenter></personalCenter>
 </template>
 
 <script setup>
@@ -24,6 +25,7 @@
 	import chatAreaVue from "./component/chat-area.vue"
 	import aiDrawingVue from "./component/ai-drawing.vue"
 	import inputBoxVue from "./component/input-box.vue"
+	import personalCenter from "@/pages/personal-center/index.vue"
 	const {
 		but_height,
 		but_top,
